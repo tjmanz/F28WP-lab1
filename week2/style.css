@@ -6,7 +6,6 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     color: #505050;
-    background: linear-gradient(45deg, #cc8d06, rgb(245, 47, 80));
 }
 
 
@@ -87,7 +86,7 @@ main {
 .services {
     margin: 2rem auto;
     padding: 2rem;
-    background-color:;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -104,8 +103,8 @@ main h3 {
 }
 
 .service-column {
-    flex-basis: calc(50% - 20px);
-    max-width: calc(50% - 20px);
+    flex-basis: calc(50% - 30px);
+    max-width: calc(50% - 30px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,7 +112,7 @@ main h3 {
 }
 
 .service-column img {
-    width: 100%;
+    width: 300px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -140,16 +139,19 @@ main h3 {
 /* Call to Action Styles */
 .cta-container {
     text-align: center;
-    padding: 20px;
-    background-color: #f5f5f5;
-    margin-top: 30px;
-
+    font-size: 20px;
+    padding: 15px;
+    background-color: #004b55e1;
+    margin-top: 10px;
+    border-style: solid;
+    border: white;
+    border-width: 1px;
 }
 
 .cta-button {
    display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #04aa6d;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
@@ -159,7 +161,25 @@ main h3 {
 }
 
 .cta-button:hover {
-    background-color: #7640B3;
+    background-color: #3b9507;
+    text-decoration-line: underline;
+}
+
+.cta-container h2{
+    color: rgb(124, 23, 23);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration-line: overline;
+    text-decoration-style: wavy;
+}
+
+.cta-container p{
+    color: rgb(178, 16, 16);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: lighter;
 }
 
 /* Footer Styles */
@@ -167,7 +187,7 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 footer ul {
@@ -190,5 +210,5 @@ footer a:hover {
 }
 
 footer p {
-    margin: 10px 0 0;
+    margin: 10px 0 0;
 }
